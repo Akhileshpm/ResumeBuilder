@@ -1,0 +1,209 @@
+a.link-btn{
+	position: fixed;
+	width: 11.5vw;
+	height: 7vh;
+	bottom: 2.5vh;
+	font-size: 1.5vw;
+	left: 15.5vw;
+	border: 1px solid rgb(116, 113, 113);
+	background: rgba(255,255,255,0.1);
+	color: black;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	border-radius: 0px;
+}
+
+a.link-btn-prev{
+	border-radius: 0px;
+	font-size: 1.5vw;
+	position: fixed;
+	width: 11.5vw;
+	height: 7vh;
+	bottom: 2.5vh;
+	left: 3.5vw;
+	border: 1px solid rgb(116, 113, 113);
+	background: rgba(255,255,255,0.1);
+	color: black;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#save-button:hover {
+	background-color: rgb(33, 225, 167);
+	color: #fff;
+}
+#save-button{
+	font-size: 1.5vw;
+	position: fixed;
+	width: 11.5vw;
+    height: 7vh;
+    bottom: 2.5vh;
+    right: 3.5vw;
+	border: 1px solid rgb(116, 113, 113);
+	background: rgba(255,255,255,0.1);
+	color: black;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#delete-button:hover{
+	color: rgb(255, 45, 45);
+	background-color: rgb(255, 255, 255,0.1);
+}
+#delete-button{
+	margin: 1%;
+	border-radius: 5px;
+	background-color: rgb(255, 133, 133,0.1);
+	width: fit-content;
+	padding: 1px;
+	cursor:pointer;
+}
+#titlee,#skill,#desc{
+	padding: 0px;
+	margin: 0px 0px;
+}
+#titlee{
+	text-align: center;
+	font-size: x-large;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#skill{
+	font-size: small;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#desc{
+	font-size: small;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.display-mate{
+    float: right;
+    margin: 25px 0px 75px 0px;
+    width: 44%;
+    height: auto;
+	padding: 15px;
+	background-color: rgb(184, 255, 162);
+	display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: space-between;
+}
+.display-mate-mini:hover{
+	background-color: #b8dcff;
+}
+
+.display-mate-mini{
+		box-shadow:
+		0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+		0 6.7px 54.3px rgba(0, 0, 0, 0.048),
+		0 12.5px 10px rgba(0, 0, 0, 0.06),
+		0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+		0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+		0 100px 80px rgba(0, 0, 0, 0.12)
+	  ;
+	  background-color: white;
+	  width: auto;
+	  height: auto;
+	  border-radius: 12px;
+	  font-size: large;
+	  text-align:left;
+	  padding: 15px;
+	  margin-bottom: 2px;
+}
+/* .display-mate-mini{
+	background-color: #9fb3c5;
+	color: #fff;
+	width: auto;
+    height: auto;
+    border-radius: 12px;
+    font-size: large;
+    text-align:left;
+	padding: 15px;
+	margin-bottom: 2px;
+} */
+.project-object{
+    float: left;
+    padding: 25px;
+    margin: 25px 0px 75px 25px;
+    width: 50%;
+	border: 1px solid brown;
+}
+.project-object>h1{
+    font-size: 300%;
+    font-family:'Courier New', Courier, monospace;
+}
+.project-object>form>input,textarea{
+    margin: 8px;
+}
+.project-object>form>textarea{
+    resize:horizontal;
+}
+/* button-27 css */
+
+.button-27 {
+	pointer-events: auto;
+	cursor: pointer;
+	background: #e7e7e7;
+	border: none;
+	padding: 1.5rem 3rem;
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	position: relative;
+	display: inline-block;
+}
+
+.button-27::before,
+.button-27::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.button-27 {
+	font-family: freight-display-pro, serif;
+	font-weight: 900;
+	width: 175px;
+	height: 120px;
+	color: #fff;
+	background: none;
+}
+.button-27:hover {
+  background-color: transparent;
+}
+.button-27::before {
+	content: '';
+	background: #e6e6e6;
+	-webkit-clip-path: path("M154.5,88.5 C131,113.5 62.5,110 30,89.5 C-2.5,69 -3.5,42 4.5,25.5 C12.5,9 33.5,-6 85,3.5 C136.5,13 178,63.5 154.5,88.5 Z");
+	clip-path: path("M154.5,88.5 C131,113.5 62.5,110 30,89.5 C-2.5,69 -3.5,42 4.5,25.5 C12.5,9 33.5,-6 85,3.5 C136.5,13 178,63.5 154.5,88.5 Z");
+	transition: clip-path 0.5s cubic-bezier(0.585, 2.5, 0.645, 0.55), -webkit-clip-path 0.5s cubic-bezier(0.585, 2.5, 0.645, 0.55), background 0.5s ease;
+}
+
+.button-27:hover::before {
+	background: #000;
+	-webkit-clip-path: path("M143,77 C117,96 74,100.5 45.5,91.5 C17,82.5 -10.5,57 5.5,31.5 C21.5,6 79,-5.5 130.5,4 C182,13.5 169,58 143,77 Z");
+	clip-path: path("M143,77 C117,96 74,100.5 45.5,91.5 C17,82.5 -10.5,57 5.5,31.5 C21.5,6 79,-5.5 130.5,4 C182,13.5 169,58 143,77 Z");
+}
+
+.button-27::after {
+	content: '';
+	height: 86%;
+	width: 97%;
+	top: 5%;
+	border-radius: 58% 42% 55% 45% / 56% 45% 55% 44%;
+	border: 1px solid #000;
+	transform: rotate(-20deg);
+	z-index: -1;
+	transition: transform 0.5s cubic-bezier(0.585, 2.5, 0.645, 0.55);
+}
+
+.button-27:hover::after {
+	transform: translate3d(0,-5px,0);
+}
+
+.button-27 span {
+	display: block;
+	transition: transform 0.3s ease;
+	mix-blend-mode: difference;
+}
+
+.button-27:hover span {
+	transform: translate3d(0,-10px,0);
+}

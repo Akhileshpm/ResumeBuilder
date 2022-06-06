@@ -1,0 +1,96 @@
+div.resumeContainer{
+    display:flex;
+}
+.resumeContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 84px;
+    padding: 70px 10px;
+    background-color: rgb(249, 252, 255);
+}
+.resumeContainer :hover{
+    box-shadow:
+    0 4.8px 29.2px rgba(0, 0, 0, 0.034),
+    0 4.7px 54.3px rgba(0, 0, 0, 0.048),
+    0 4.5px 10px rgba(0, 0, 0, 0.06),
+    10px 4.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 10px 8px rgba(0, 0, 0, 0.12)
+  ;
+}
+div.resumeContainer #review #A4{
+    min-height: 400px;
+}   
+div.resumeContainer #review{
+    margin: 4%;
+    border-radius: 5px;
+    border: 3px solid greenyellow;
+    min-width: 400px;
+}
+
+.homeScreen .subHeading{
+    display: flex;
+    padding: 8px 10px;
+    margin-top:  55px;
+}
+span.subHeading h3{
+    font-size: 2.5rem;
+    margin-left: 4%;
+    color: rgb(5, 134, 173);
+}
+
+span.subHeading h3:hover{
+    color: rgb(5, 134, 173);
+    font-size: 2.5rem;
+    font-weight: 500;
+    background-color: rgb(209, 209, 209);
+    border: 8px solid rgb(209, 209, 209);
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 54.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+    border-radius: 5px;
+    margin-top: -12px;
+    cursor: pointer;
+    min-height: 55.985px;
+    min-width: 148.807
+} 
+
+/* div.resumeContainer{
+    transform: scale(0.5,0.30);
+    transform-origin: top left;
+    width: fit-content;
+    min-width: fit-content;
+    min-height: fit-content;
+    padding: 10%;
+    column-gap: normal;
+} */
+.resumeContainer .link-btn{
+    display: none;
+}
+div#create-new{
+    padding: 284px 51px;
+    font-size: 60px;
+    /* height: 960px; */
+    width: 476px;
+    justify-content: center;
+    margin: 10px;
+    border: 3px solid rgb(5, 156, 243);
+}
+
+
+.homeScreen{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+h1#myresumes{
+    padding-left: 20px;
+    text-align: left;
+
+}

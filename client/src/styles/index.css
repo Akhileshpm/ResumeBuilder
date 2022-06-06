@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* font-style: oblique; */
+  /* text-align: center; */
+}
+input,select{
+  height: 30px;
+  /* border-radius: 10px; */
+  /* border: #6db8f9; */
+  border: 0.5px solid black;
+}
+input{
+  padding:10px;
+  /* font-size: x-large; */
+}
+#title{
+  text-align: center;
+  height: 5%;
+  background-color: aliceblue;
+  font-size: xx-large;
+  border-radius: 10px;
+  font-family:fantasy;
+}
+.Education{
+  border-top: 10px;
+  background-color: #b8dbf8;
+  padding: 35px;
+  width: 100%;
+}
+.Education p{
+ font-size:x-large; 
+ padding: 1%;
+ margin: 0%;
+}
+.header{
+  background-color: #9fd4ff;
+  padding: 35px;
+  box-shadow: 5px 5px 5px 2px blue;
+  border-radius: 10px;
+}
+label{
+  display:grid;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.edForms>label, .edForms>input{
+    font-size: large;
+    font-weight: bold;
+    padding: 15px;
+}
+div.edForms{
+  padding: 1%;
+  /* border-style: solid; */
+  /* border-width: 2.5vw; */
+  border-color: #6db8f9;
+  border-radius: 25px;
+  background-color: aquamarine;
+  box-shadow: 10px 10px 2px 2px lightblue;
+}
+.ads{
+  box-shadow: 10px 10px 5px lightblue;
+}
+div.education{
+  border-radius: 5%;
+}
+h1{
+  text-align: -webkit-center;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.education-spacing{
+  display: flex;
+  flex-direction: column;
+  /* column-gap: 20px; */
+  row-gap: 20px;
+  justify-content: space-between;
+}
+

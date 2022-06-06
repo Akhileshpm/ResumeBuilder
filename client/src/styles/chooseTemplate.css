@@ -1,0 +1,21 @@
+
+.templates{
+    background-color: white;
+}
+.templates :hover{
+    border: 3px solid blue;
+}
+.template-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 84px;
+    padding: 70px 10px;
+    background-color: aliceblue;
+}
+img{
+    filter: none; 
+-webkit-filter: blur(0px); 
+-moz-filter: blur(0px); 
+-ms-filter: blur(0px);
+filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
+}

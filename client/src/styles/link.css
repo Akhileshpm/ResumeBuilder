@@ -1,0 +1,32 @@
+.link-btn{
+    background-color: #0a2ce7;
+    border-radius: 0.2rem;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    bottom: -5vh;
+    left: 47%;
+    max-width: fit-content;
+    font-size: 100%;
+    display: inline-block;
+    padding: 8px 16px;
+}
+.link-btn-prev{
+    text-decoration: none;
+    position:relative;
+    bottom: -5vh;
+    left:35%;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #0a2ce7;
+    border-radius: 0.2rem;
+    color: white;
+}
+.link-btn:hover {
+    background-color: rgb(33, 225, 167);
+    color: black;
+}
+.link-btn-prev:hover {
+    background-color: rgb(33, 225, 167);
+    color: black;
+}

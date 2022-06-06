@@ -1,0 +1,23 @@
+div.exForms{
+  padding: 1%;
+  /* border-style: solid; */
+  /* border-width: 2.5vw; */
+  border-color: #6db8f9;
+  border-radius: 25px;
+  background-color: rgb(47, 218, 161);
+  box-shadow: 10px 10px 2px 2px lightblue;
+  padding: 15px;
+  }
+.experience-spacing{
+  display: flex;
+  flex-direction: column;
+  /* column-gap: 20px; */
+  row-gap: 20px;
+  justify-content: space-between;
+}
+  .add-btn{
+    width: -webkit-fill-available;
+  }
+  .save-btn{
+    width: -webkit-fill-available;
+  }
