@@ -2,7 +2,7 @@
 A simple resume builder built using PERN stack.
 
 You can save your resumes.
-![alt text](https://github.com/Akhileshpm/ResumeBuilder/blob/c45be19c7c8d682bbc98c5835cfc7633e4be00e9/Screenshot%20(806).png?raw=true)
+<kbd>![alt text](https://github.com/Akhileshpm/ResumeBuilder/blob/c45be19c7c8d682bbc98c5835cfc7633e4be00e9/Screenshot%20(806).png?raw=true)</kbd>
 
 
 ![alt text](https://github.com/Akhileshpm/ResumeBuilder/blob/d55c647df4317dba4c8239342057aae1551c3aa3/Screenshot%20(807).png?raw=true)
